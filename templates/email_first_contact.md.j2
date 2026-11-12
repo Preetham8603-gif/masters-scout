@@ -1,0 +1,20 @@
+Subject: Question about your paper "{{ paper.title if paper else '[paper title]' }}"
+
+Dear Professor {{ prof_last }},
+
+My name is {{ me.name or '[your name]' }}, and I am a {{ me.degree }} student in India (graduating {{ me.graduation_year }}). I recently read your {{ paper.year if paper else '' }} paper "{{ paper.title if paper else '[paper title]' }}".
+
+{{ takeaway or '[2-3 sentences in your own words: what the paper does, and the part you found most interesting. Be specific - mention a method, result, or experiment.]' }}
+
+{{ question or '[One genuine, specific question about the paper - something you actually wondered while reading it.]' }}
+
+{% if me.projects %}
+For context, I have been working on {{ me.projects }}.
+{% endif %}
+I am planning to apply for a master's degree for {{ me.target_intake }} and would love to understand more about the work in your group.
+
+Thank you for your time.
+
+Best regards,
+{{ me.name or '[your name]' }}
+[link to GitHub / personal page]

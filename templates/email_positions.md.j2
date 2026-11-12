@@ -1,0 +1,21 @@
+Subject: Prospective {{ me.target_intake }} master's student - interest in {{ paper.title if paper else '[research area]' }}
+
+Dear Professor {{ prof_last }},
+
+{{ takeaway or '[Remind them of your earlier conversation, if any, in one sentence.]' }}
+
+I am applying for the master's programme at {{ prof.institution }} for {{ me.target_intake }}, and I am very interested in working on {{ me.interest_text or '[your research interest]' }}, which connects closely to your work on "{{ paper.title if paper else '[paper title]' }}".
+
+{% if me.projects %}
+Relevant experience: {{ me.projects }}.
+{% endif %}
+{% if me.skills %}
+Skills: {{ me.skills }}.
+{% endif %}
+
+{{ question or 'Would there be any opportunity to contribute to your group as a master\'s student, for example through a thesis or a research assistant position?' }}
+
+I have attached my CV and transcript. Thank you very much for considering this.
+
+Best regards,
+{{ me.name or '[your name]' }}

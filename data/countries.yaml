@@ -1,0 +1,202 @@
+# Rough guide for an Indian CS/AI masters applicant. Last checked: 2026-11.
+# Scores are 1 (weak) to 5 (strong) and are judgement calls, not official data.
+# Rules and fees change often (especially visas) - always verify on the official link.
+#
+# affordability     : tuition + living cost (5 = cheapest)
+# post_study_work   : length / ease of post-study work visa
+# ai_jobs           : size of the AI/ML job market for graduates
+# scholarships      : availability of scholarships open to Indian masters students
+# research_roles    : chance of paid research work during the masters (RA/TA, HiWi, thesis funding)
+# pr_pathway        : how clear the route to long-term residence is
+# english           : can you study AND live comfortably in English
+
+countries:
+  - name: Germany
+    code: DE
+    region: Europe
+    tuition: "Mostly free at public universities (semester fee ~EUR 150-400). Exceptions: Baden-Württemberg (EUR 1,500/semester) and TUM (EUR 2,000-6,000/semester for non-EU)."
+    living: "Blocked account ~EUR 11,900/year"
+    post_study: "18-month job-seeker permit; EU Blue Card afterwards"
+    notes: "Best value in Europe. Paid student research jobs (HiWi) are common. German helps a lot for jobs outside big tech."
+    link: https://www.daad.de/en/studying-in-germany/
+    scores: {affordability: 5, post_study_work: 4, ai_jobs: 4, scholarships: 4, research_roles: 4, pr_pathway: 4, english: 3}
+
+  - name: Netherlands
+    code: NL
+    region: Europe
+    tuition: "~EUR 15,000-25,000/year for non-EU"
+    living: "~EUR 14,000-18,000/year (housing is hard to find)"
+    post_study: "1-year orientation year (zoekjaar)"
+    notes: "Strong AI groups (Amsterdam, Delft, Eindhoven, Utrecht). Housing shortage is real."
+    link: https://www.studyinnl.org/
+    scores: {affordability: 2, post_study_work: 3, ai_jobs: 4, scholarships: 2, research_roles: 2, pr_pathway: 3, english: 5}
+
+  - name: Switzerland
+    code: CH
+    region: Europe
+    tuition: "ETH/EPFL ~CHF 2,000-2,200/semester for international students (raised from 2025)"
+    living: "Very high, ~CHF 24,000-30,000/year"
+    post_study: "6 months to look for a job"
+    notes: "World-class AI research (ETH, EPFL). High salaries but hard work visas for non-EU."
+    link: https://www.studyinswitzerland.plus/
+    scores: {affordability: 2, post_study_work: 2, ai_jobs: 4, scholarships: 3, research_roles: 3, pr_pathway: 2, english: 4}
+
+  - name: France
+    code: FR
+    region: Europe
+    tuition: "Public universities ~EUR 3,900/year for non-EU (many waive it); grandes écoles EUR 10,000-25,000"
+    living: "~EUR 12,000-16,000/year (Paris higher)"
+    post_study: "1-2 years job-search permit; India-France agreement gives Indian masters graduates extra options"
+    notes: "Inria and Paris-Saclay are strong in ML. Charpak scholarship is India-specific."
+    link: https://www.inde.campusfrance.org/
+    scores: {affordability: 4, post_study_work: 4, ai_jobs: 3, scholarships: 4, research_roles: 3, pr_pathway: 3, english: 2}
+
+  - name: Italy
+    code: IT
+    region: Europe
+    tuition: "EUR 0-4,000/year, income-based; often waived with a regional scholarship"
+    living: "~EUR 9,000-13,000/year"
+    post_study: "12 months to look for work"
+    notes: "Regional DSU scholarships (income-based) can cover fees, food and housing. Politecnico di Milano, Bologna, Sapienza."
+    link: https://studyinitaly.esteri.it/
+    scores: {affordability: 5, post_study_work: 3, ai_jobs: 2, scholarships: 4, research_roles: 2, pr_pathway: 3, english: 2}
+
+  - name: Austria
+    code: AT
+    region: Europe
+    tuition: "~EUR 730/semester for non-EU at public universities"
+    living: "~EUR 12,000-14,000/year"
+    post_study: "12 months to look for work"
+    notes: "TU Wien, JKU Linz (Sepp Hochreiter's group). Cheap, but German helps."
+    link: https://studyinaustria.at/
+    scores: {affordability: 5, post_study_work: 3, ai_jobs: 3, scholarships: 3, research_roles: 3, pr_pathway: 3, english: 2}
+
+  - name: Sweden
+    code: SE
+    region: Europe
+    tuition: "~SEK 90,000-300,000/year for non-EU"
+    living: "~SEK 120,000/year"
+    post_study: "12 months to look for work"
+    notes: "KTH, Chalmers, Lund. Swedish Institute scholarship needs work experience."
+    link: https://studyinsweden.se/
+    scores: {affordability: 2, post_study_work: 3, ai_jobs: 3, scholarships: 3, research_roles: 2, pr_pathway: 3, english: 5}
+
+  - name: Denmark
+    code: DK
+    region: Europe
+    tuition: "~EUR 10,000-17,000/year for non-EU"
+    living: "~EUR 14,000-16,000/year"
+    post_study: "Up to 3 years (Establishment Card)"
+    notes: "DTU, Copenhagen, Aarhus. Long post-study permit."
+    link: https://studyindenmark.dk/
+    scores: {affordability: 2, post_study_work: 4, ai_jobs: 3, scholarships: 2, research_roles: 2, pr_pathway: 3, english: 5}
+
+  - name: Finland
+    code: FI
+    region: Europe
+    tuition: "~EUR 10,000-18,000/year for non-EU; many universities give partial/full fee waivers"
+    living: "~EUR 11,000-13,000/year"
+    post_study: "2-year permit to look for work"
+    notes: "Aalto and Helsinki are strong in ML (FCAI). Fee waivers are common for good students."
+    link: https://www.studyinfinland.fi/
+    scores: {affordability: 3, post_study_work: 4, ai_jobs: 2, scholarships: 3, research_roles: 3, pr_pathway: 3, english: 4}
+
+  - name: Ireland
+    code: IE
+    region: UK & Ireland
+    tuition: "~EUR 18,000-30,000 for a 1-year masters"
+    living: "~EUR 12,000-16,000/year (Dublin housing is expensive)"
+    post_study: "Stamp 1G: 2 years for masters (level 9) graduates"
+    notes: "Many big-tech EU offices in Dublin. 1-year course keeps total cost down."
+    link: https://www.educationinireland.com/
+    scores: {affordability: 3, post_study_work: 4, ai_jobs: 4, scholarships: 3, research_roles: 2, pr_pathway: 4, english: 5}
+
+  - name: United Kingdom
+    code: GB
+    region: UK & Ireland
+    tuition: "~GBP 25,000-45,000 for a 1-year masters"
+    living: "~GBP 13,000-18,000/year (London higher)"
+    post_study: "Graduate Route: 2 years now, cut to 18 months for applications from Jan 2027"
+    notes: "1-year course. Oxford, Cambridge, Imperial, UCL, Edinburgh. Visa rules are tightening."
+    link: https://study-uk.britishcouncil.org/
+    scores: {affordability: 2, post_study_work: 3, ai_jobs: 4, scholarships: 3, research_roles: 1, pr_pathway: 3, english: 5}
+
+  - name: United States
+    code: US
+    region: USA & Canada
+    tuition: "~USD 30,000-60,000/year (2-year MS)"
+    living: "~USD 15,000-25,000/year"
+    post_study: "OPT 12 months + 24-month STEM extension (36 total); H-1B lottery and new fees make long-term stay uncertain"
+    notes: "Biggest AI job market and most RA/TA funding. A professor who knows you can make the biggest difference here."
+    link: https://www.usief.org.in/
+    scores: {affordability: 1, post_study_work: 4, ai_jobs: 5, scholarships: 2, research_roles: 4, pr_pathway: 2, english: 5}
+
+  - name: Canada
+    code: CA
+    region: USA & Canada
+    tuition: "~CAD 20,000-50,000/year; thesis-based MSc is often funded by the supervisor"
+    living: "~CAD 20,000+/year (proof-of-funds requirement)"
+    post_study: "PGWP up to 3 years for masters graduates"
+    notes: "Thesis-based MSc (Toronto, UBC, Alberta, Montreal/Mila, Waterloo) usually comes with a funding package - you need a supervisor first. Study-permit caps apply."
+    link: https://www.educanada.ca/
+    scores: {affordability: 3, post_study_work: 5, ai_jobs: 4, scholarships: 3, research_roles: 5, pr_pathway: 4, english: 5}
+
+  - name: Australia
+    code: AU
+    region: Asia-Pacific
+    tuition: "~AUD 40,000-55,000/year"
+    living: "~AUD 29,000/year (visa requirement)"
+    post_study: "Temporary Graduate visa ~2 years for masters by coursework"
+    notes: "Melbourne, ANU, UNSW, Sydney, Monash. Expensive; research masters can be funded."
+    link: https://www.studyaustralia.gov.au/
+    scores: {affordability: 1, post_study_work: 4, ai_jobs: 3, scholarships: 3, research_roles: 3, pr_pathway: 4, english: 5}
+
+  - name: New Zealand
+    code: NZ
+    region: Asia-Pacific
+    tuition: "~NZD 35,000-50,000/year"
+    living: "~NZD 20,000-25,000/year"
+    post_study: "Up to 3 years post-study work visa"
+    notes: "Smaller AI market. Auckland is the main option."
+    link: https://www.studywithnewzealand.govt.nz/
+    scores: {affordability: 2, post_study_work: 5, ai_jobs: 2, scholarships: 2, research_roles: 2, pr_pathway: 4, english: 5}
+
+  - name: Singapore
+    code: SG
+    region: Asia-Pacific
+    tuition: "~SGD 40,000-70,000 for MSc by coursework"
+    living: "~SGD 15,000-20,000/year"
+    post_study: "No dedicated post-study visa; need a job offer (Employment Pass)"
+    notes: "NUS and NTU are top-tier in AI. Research masters can be funded; coursework MSc rarely is."
+    link: https://www.nus.edu.sg/oam/
+    scores: {affordability: 1, post_study_work: 2, ai_jobs: 4, scholarships: 2, research_roles: 3, pr_pathway: 2, english: 5}
+
+  - name: Japan
+    code: JP
+    region: Asia-Pacific
+    tuition: "~JPY 540,000/year at national universities"
+    living: "~JPY 1,500,000/year"
+    post_study: "Up to 1 year job-hunting visa"
+    notes: "MEXT is a full scholarship and often needs a professor's acceptance letter first - exactly the outreach path in this app."
+    link: https://www.studyinjapan.go.jp/en/
+    scores: {affordability: 4, post_study_work: 3, ai_jobs: 3, scholarships: 5, research_roles: 3, pr_pathway: 3, english: 2}
+
+  - name: South Korea
+    code: KR
+    region: Asia-Pacific
+    tuition: "~KRW 5-10 million/semester; often covered by scholarship or lab funding"
+    living: "~KRW 12-15 million/year"
+    post_study: "D-10 job-seeking visa (up to ~2 years)"
+    notes: "KAIST, SNU, POSTECH. GKS covers everything; many labs fund students directly."
+    link: https://www.studyinkorea.go.kr/
+    scores: {affordability: 4, post_study_work: 3, ai_jobs: 3, scholarships: 5, research_roles: 4, pr_pathway: 2, english: 3}
+
+  - name: Hong Kong
+    code: HK
+    region: Asia-Pacific
+    tuition: "~HKD 150,000-400,000 for taught masters"
+    living: "~HKD 100,000-150,000/year"
+    post_study: "IANG visa: 2 years, no job offer needed"
+    notes: "HKU, HKUST, CUHK are strong in AI. Research degrees (MPhil) are funded."
+    link: https://www.studyinhongkong.edu.hk/
+    scores: {affordability: 2, post_study_work: 4, ai_jobs: 3, scholarships: 3, research_roles: 4, pr_pathway: 3, english: 4}

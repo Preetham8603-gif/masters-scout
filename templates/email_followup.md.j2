@@ -1,0 +1,12 @@
+Subject: Re: Question about your paper "{{ paper.title if paper else '[paper title]' }}"
+
+Dear Professor {{ prof_last }},
+
+I hope you are doing well. I am following up on my email from {{ prof.last_contact or '[date]' }} about your paper "{{ paper.title if paper else '[paper title]' }}". I understand you are very busy.
+
+{{ takeaway or '[Optional: one short new thing - e.g. you tried re-running their code, or read a follow-up paper of theirs.]' }}
+
+{{ question or '[Restate your question in one line.]' }}
+
+Thank you again,
+{{ me.name or '[your name]' }}

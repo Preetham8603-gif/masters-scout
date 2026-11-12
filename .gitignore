@@ -1,0 +1,17 @@
+# Python / environment
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Downloaded data (re-downloaded automatically)
+data/cache/
+
+# Personal data - never shared, never overwritten by updates
+data/profile.json
+data/settings.json
+data/scout.db
+data/rankings.csv
+
+# Local tooling
+.claude/

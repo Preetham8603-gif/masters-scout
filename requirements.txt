@@ -1,0 +1,10 @@
+streamlit>=1.40
+pandas
+pyyaml
+requests
+requests-cache
+scikit-learn
+jinja2
+rapidfuzz
+sentence-transformers
+pytest

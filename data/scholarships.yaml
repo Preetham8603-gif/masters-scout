@@ -1,0 +1,348 @@
+# Scholarships open to (or aimed at) Indian students for a masters abroad. Last checked: 2026-11.
+# Eligibility, amounts and deadlines change every year - ALWAYS confirm on the official link.
+# funding: full | partial | loan (loan = loan-scholarship / interest-free loan)
+# country: ISO code of where you study, or "ANY"
+# needs_work_exp: true if the scheme usually requires work experience after graduation
+
+scholarships:
+  # ---------- Indian funders (study anywhere) ----------
+  - name: J.N. Tata Endowment Loan Scholarship
+    country: ANY
+    funding: loan
+    amount: "INR 1-10 lakh loan scholarship + travel grant"
+    deadline: "Usually Jan-Mar"
+    needs_work_exp: false
+    notes: "For Indian graduates going abroad for postgraduate study. Highly respected."
+    link: https://www.jntataendowment.org/
+
+  - name: K.C. Mahindra Scholarships for PG Studies Abroad
+    country: ANY
+    funding: loan
+    amount: "Interest-free loan scholarship, up to ~INR 8 lakh for top scholars"
+    deadline: "Usually Mar"
+    needs_work_exp: false
+    notes: "Apply after or while getting admission."
+    link: https://www.kcmet.org/
+
+  - name: Narotam Sekhsaria Foundation Scholarship
+    country: ANY
+    funding: loan
+    amount: "Interest-free loan scholarship, up to ~INR 30 lakh"
+    deadline: "Usually Feb-Mar"
+    needs_work_exp: false
+    notes: "For postgraduate study in India or abroad; age limit applies."
+    link: https://pg.nsfoundation.co.in/
+
+  - name: Inlaks Shivdasani Foundation Scholarship
+    country: ANY
+    funding: full
+    amount: "Up to USD 100,000 (tuition, living, travel)"
+    deadline: "Usually Mar-Apr"
+    needs_work_exp: false
+    notes: "Only for admits at top listed universities; under-30. Very competitive."
+    link: https://www.inlaksfoundation.org/
+
+  - name: Aga Khan Foundation International Scholarship
+    country: ANY
+    funding: partial
+    amount: "50% grant / 50% loan"
+    deadline: "Usually Mar"
+    needs_work_exp: false
+    notes: "India is an eligible country; needs-based."
+    link: https://the.akdn/en/how-we-work/our-agencies/aga-khan-foundation/international-scholarship-programme
+
+  - name: National Overseas Scholarship (Govt. of India)
+    country: ANY
+    funding: full
+    amount: "Tuition + living + travel"
+    deadline: "Check portal"
+    needs_work_exp: false
+    notes: "For SC / ST / other eligible categories with family income limits."
+    link: https://nosmsje.gov.in/
+
+  - name: Erasmus Mundus Joint Masters
+    country: ANY
+    funding: full
+    amount: "~EUR 1,400/month + tuition + travel, for 2 years across 2-3 EU countries"
+    deadline: "Usually Oct-Feb, per programme"
+    needs_work_exp: false
+    notes: "Several AI / data science programmes. You apply to the programme itself. One of the best options for a fresh graduate."
+    link: https://www.eacea.ec.europa.eu/scholarships/erasmus-mundus-catalogue_en
+
+  # ---------- Germany ----------
+  - name: DAAD scholarship database
+    country: DE
+    funding: full
+    amount: "Varies; many are ~EUR 992/month + extras"
+    deadline: "Varies"
+    needs_work_exp: false
+    notes: "Search the database for 'Master' + 'India'. Some DAAD programmes (EPOS) need work experience."
+    link: https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/
+
+  - name: Deutschlandstipendium
+    country: DE
+    funding: partial
+    amount: "EUR 300/month"
+    deadline: "Through your university, usually after admission"
+    needs_work_exp: false
+    notes: "Merit-based, open to international students."
+    link: https://www.deutschlandstipendium.de/
+
+  - name: Heinrich Böll Foundation (international students)
+    country: DE
+    funding: full
+    amount: "~EUR 992/month + extras"
+    deadline: "Usually Mar and Sep"
+    needs_work_exp: false
+    notes: "Must already be enrolled / admitted in Germany; values social engagement."
+    link: https://www.boell.de/en/scholarships
+
+  - name: Konrad-Adenauer-Stiftung (foreign students)
+    country: DE
+    funding: full
+    amount: "~EUR 992/month + extras"
+    deadline: "Check site"
+    needs_work_exp: false
+    notes: "For international students at German universities."
+    link: https://www.kas.de/en/web/begabtenfoerderung-und-kultur/foreign-students
+
+  # ---------- Switzerland ----------
+  - name: ETH Excellence Scholarship & Opportunity Programme
+    country: CH
+    funding: full
+    amount: "Living + tuition waiver"
+    deadline: "Usually Nov-Dec (with application)"
+    needs_work_exp: false
+    notes: "Top ~3% of applicants. Apply together with your ETH masters application."
+    link: https://ethz.ch/students/en/studies/financial/scholarships/excellencescholarship.html
+
+  - name: EPFL Excellence Fellowships
+    country: CH
+    funding: partial
+    amount: "CHF 10,000 per semester"
+    deadline: "With masters application"
+    needs_work_exp: false
+    notes: "Merit-based."
+    link: https://www.epfl.ch/education/master/
+
+  # ---------- France ----------
+  - name: Charpak Master's Scholarship
+    country: FR
+    funding: full
+    amount: "Monthly allowance + tuition waiver + visa / insurance help"
+    deadline: "Usually Feb-Apr"
+    needs_work_exp: false
+    notes: "India-specific, run by the French Embassy in India."
+    link: https://www.inde.campusfrance.org/
+
+  - name: Eiffel Excellence Scholarship
+    country: FR
+    funding: full
+    amount: "~EUR 1,200/month + travel + insurance"
+    deadline: "Usually Jan (the university nominates you)"
+    needs_work_exp: false
+    notes: "The French university applies on your behalf."
+    link: https://www.campusfrance.org/en/eiffel-scholarship-program-of-excellence
+
+  # ---------- Italy ----------
+  - name: Regional DSU scholarships (e.g. Lombardy, Emilia-Romagna, Lazio)
+    country: IT
+    funding: full
+    amount: "Up to ~EUR 7,000/year + fee waiver + canteen/housing"
+    deadline: "Usually Jul-Sep"
+    needs_work_exp: false
+    notes: "Income-based; needs family income documents (ISEE-equivalent). Very common route for Indian students."
+    link: https://studyinitaly.esteri.it/
+
+  - name: Invest Your Talent in Italy
+    country: IT
+    funding: full
+    amount: "EUR 9,000 + tuition waiver"
+    deadline: "Usually Mar-Apr"
+    needs_work_exp: false
+    notes: "Engineering / tech masters; India is an eligible country."
+    link: https://investyourtalentapplication.esteri.it/
+
+  # ---------- Other Europe ----------
+  - name: Holland Scholarship
+    country: NL
+    funding: partial
+    amount: "EUR 5,000 (first year)"
+    deadline: "Usually Feb-May"
+    needs_work_exp: false
+    notes: "Plus university merit scholarships (e.g. Amsterdam Merit, Delft Excellence)."
+    link: https://www.studyinnl.org/finances/holland-scholarship
+
+  - name: Swedish Institute Scholarships for Global Professionals
+    country: SE
+    funding: full
+    amount: "Tuition + SEK 12,000/month + travel"
+    deadline: "Usually Feb"
+    needs_work_exp: true
+    notes: "Needs ~3,000 hours of work/leadership experience. Check that India is on the eligible country list that year."
+    link: https://si.se/en/apply/scholarships/
+
+  - name: Finnish university scholarships (fee waivers)
+    country: FI
+    funding: partial
+    amount: "50-100% tuition waiver"
+    deadline: "With masters application"
+    needs_work_exp: false
+    notes: "Aalto, Helsinki, Tampere etc. give automatic merit waivers."
+    link: https://www.studyinfinland.fi/scholarships
+
+  - name: OeAD / grants.at (Austria)
+    country: AT
+    funding: partial
+    amount: "Varies"
+    deadline: "Varies"
+    needs_work_exp: false
+    notes: "Official Austrian scholarship database."
+    link: https://grants.at/en/
+
+  - name: Stipendium Hungaricum
+    country: HU
+    funding: full
+    amount: "Tuition + monthly stipend + housing"
+    deadline: "Usually Jan"
+    needs_work_exp: false
+    notes: "India is a partner country. Budapest (ELTE, BME) has decent CS."
+    link: https://stipendiumhungaricum.hu/
+
+  # ---------- UK & Ireland ----------
+  - name: Chevening Scholarship
+    country: GB
+    funding: full
+    amount: "Tuition + living + flights"
+    deadline: "Usually early Nov (for the next year)"
+    needs_work_exp: true
+    notes: "Needs 2 years (~2,800 hours) of work experience - not for fresh graduates."
+    link: https://www.chevening.org/
+
+  - name: Commonwealth Master's Scholarships
+    country: GB
+    funding: full
+    amount: "Tuition + living + flights"
+    deadline: "Usually Oct-Dec"
+    needs_work_exp: false
+    notes: "Check each year's eligible-country list and India's nomination route."
+    link: https://cscuk.fcdo.gov.uk/
+
+  - name: GREAT Scholarships (India)
+    country: GB
+    funding: partial
+    amount: "GBP 10,000 towards tuition"
+    deadline: "Usually Apr-May"
+    needs_work_exp: false
+    notes: "Run with the British Council for specific UK universities."
+    link: https://study-uk.britishcouncil.org/scholarships-funding/great-scholarships
+
+  - name: Rhodes Scholarship (India)
+    country: GB
+    funding: full
+    amount: "Full Oxford costs"
+    deadline: "Usually Jul-Aug"
+    needs_work_exp: false
+    notes: "Oxford only; age 19-25 (check). Extremely competitive."
+    link: https://www.rhodeshouse.ox.ac.uk/
+
+  - name: Clarendon Fund (Oxford)
+    country: GB
+    funding: full
+    amount: "Full fees + living"
+    deadline: "With Oxford application (Dec/Jan)"
+    needs_work_exp: false
+    notes: "Automatic consideration when you apply to Oxford by the deadline."
+    link: https://www.ox.ac.uk/clarendon
+
+  - name: Gates Cambridge Scholarship
+    country: GB
+    funding: full
+    amount: "Full Cambridge costs"
+    deadline: "Usually Oct-Dec"
+    needs_work_exp: false
+    notes: "Mostly for research degrees (MPhil / PhD)."
+    link: https://www.gatescambridge.org/
+
+  - name: Government of Ireland International Education Scholarship
+    country: IE
+    funding: full
+    amount: "EUR 10,000 stipend + fee waiver"
+    deadline: "Usually Mar"
+    needs_work_exp: false
+    notes: "~60 awards per year across all countries."
+    link: https://hea.ie/policy/internationalisation/goi-ies/
+
+  # ---------- USA & Canada ----------
+  - name: RA / TA assistantships (US universities)
+    country: US
+    funding: full
+    amount: "Tuition waiver + monthly stipend"
+    deadline: "Ask the professor / department"
+    needs_work_exp: false
+    notes: "Rarely advertised for MS students - usually offered by a professor who already knows your work. This is what the outreach tracker is for."
+    link: https://www.usief.org.in/
+
+  - name: Fulbright-Nehru Master's Fellowships
+    country: US
+    funding: full
+    amount: "Tuition + living + travel"
+    deadline: "Usually May-Jul"
+    needs_work_exp: true
+    notes: "Needs ~3 years of work experience; only certain fields - check whether CS is included that year."
+    link: https://www.usief.org.in/
+
+  - name: Funded thesis-based MSc (Canada)
+    country: CA
+    funding: full
+    amount: "~CAD 20,000-30,000/year funding package"
+    deadline: "With the application (Dec-Feb)"
+    needs_work_exp: false
+    notes: "Toronto, UBC, Alberta, Waterloo, McGill/Mila, etc. Usually needs a supervisor to agree to take you."
+    link: https://www.educanada.ca/scholarships-bourses/index.aspx?lang=eng
+
+  # ---------- Asia-Pacific ----------
+  - name: MEXT Scholarship (Research / Masters)
+    country: JP
+    funding: full
+    amount: "Tuition + ~JPY 145,000/month + flights"
+    deadline: "Embassy track ~Apr-May; university track varies"
+    needs_work_exp: false
+    notes: "Having a professor willing to supervise you helps a lot, especially on the university track."
+    link: https://www.studyinjapan.go.jp/en/planning/scholarships/
+
+  - name: Global Korea Scholarship (GKS)
+    country: KR
+    funding: full
+    amount: "Tuition + KRW ~1 million/month + language year + flights"
+    deadline: "Usually Feb-Mar"
+    needs_work_exp: false
+    notes: "Embassy and university tracks."
+    link: https://www.studyinkorea.go.kr/
+
+  - name: Australian university research scholarships (RTP)
+    country: AU
+    funding: full
+    amount: "Fee offset + ~AUD 35,000/year stipend"
+    deadline: "Per university"
+    needs_work_exp: false
+    notes: "For research masters (MPhil); needs a supervisor. Coursework masters get smaller merit discounts."
+    link: https://www.studyaustralia.gov.au/en/plan-your-studies/scholarships
+
+  - name: Hong Kong PhD/MPhil funding (university studentships)
+    country: HK
+    funding: full
+    amount: "~HKD 18,000/month"
+    deadline: "Usually Dec-Jan"
+    needs_work_exp: false
+    notes: "MPhil (research masters) at HKU, HKUST and CUHK is usually funded. Needs a supervisor."
+    link: https://www.studyinhongkong.edu.hk/
+
+  - name: NUS / NTU research scholarships
+    country: SG
+    funding: full
+    amount: "Tuition + monthly stipend"
+    deadline: "Per university"
+    needs_work_exp: false
+    notes: "For research degrees; coursework MSc is rarely funded."
+    link: https://www.nus.edu.sg/oam/
