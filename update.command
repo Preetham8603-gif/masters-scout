@@ -1,7 +1,7 @@
 #!/bin/bash
 # Get the latest version of Masters Scout. Double-click to run.
 # Your profile, professor tracker, ranks and settings in data/ are never touched.
-REPO="GITHUB_USERNAME/masters-scout"   # <- set once, e.g. "yourname/masters-scout"
+REPO="Preetham8603-gif/masters-scout"
 BRANCH="main"
 
 cd "$(dirname "$0")"

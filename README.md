@@ -5,7 +5,7 @@ scholarships, and **find professors whose research matches your interests**, the
 
 ## Getting started (Mac)
 
-1. On the GitHub page, click **Code → Download ZIP**. Unzip it and move the folder somewhere permanent (e.g. Documents).
+1. Go to https://github.com/Preetham8603-gif/masters-scout and click **Code → Download ZIP**. Unzip it and move the folder somewhere permanent (e.g. Documents).
 2. Double-click **`setup.command`** (one time only). It installs everything and then opens the app.
    - If macOS says it "cannot be opened": **right-click → Open → Open**. You only need to do this once per script.
    - If you don't have Python 3.10+, it opens python.org. Install it, then run `setup.command` again.
